@@ -1,0 +1,137 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Inter&family=Lato&family=Raleway:wght@100&display=swap');
+
+.home_front_main{
+    background-image: url(../Assets/home_bg.png);
+    padding: 50px 10px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height:100vh
+
+}
+
+.home_front_heading{
+    color: white;
+    font-size: 24px;
+    font-style:normal;
+    font-weight: 700;
+    line-height: 30px;
+    text-align: center;
+    text-transform: capitalize;
+    font-family: 'Raleway', sans-serif;
+}
+
+.Urmah_tab_button{
+    background-color: white;
+    color: #02A3C1 !important;
+    padding: 10px 15px;
+    /* margin-left: 20px; */
+    font-weight: 600px !important;
+    border-radius: 5px;
+}
+
+
+
+.home_navigation{
+    background-color: white;
+    padding: 10px 12px ;
+    border: none;
+    font-size: 14px;
+    outline: none;
+    color: #02A3C1;
+    font-weight: 700;
+    margin-right: 20px;
+}
+
+.sasds{
+    border-bottom: none !important;
+    margin-left: 25px !important;
+}
+.sasds:hover{
+    border: none !important;
+
+}
+.navigation_card{
+    background-color: white;
+    padding: 25px 30px;
+}
+
+.Navigation_card_heading{
+    text-transform: uppercase;
+    color: #757575;
+    margin-left: 5px;
+    font-size: 17px;
+}
+
+.card_icons{
+    color: #02A3C1;
+}
+
+.lower_card_heading{
+    text-transform: uppercase;
+    color: #757575;
+font-family: Roboto;
+font-size: 18px;
+}
+
+
+.small_btn_home{
+    border: none;
+    outline: none;
+    background-color: #FFF;
+    font-size: 24px;
+    color: #757575;
+    border: 1px solid #757575;
+
+}
+
+.large_btn_home{
+    border: none;
+    outline: none;
+    background-color: #EDEDED    !important;
+    font-size: 24px;
+    width: 60px;
+    color: #585858;
+}
+
+.search_button{
+    padding:10px ;
+    color: white;
+    background-color: #02A3C1;
+    border: none;
+    outline: none;
+    border-radius: 8px;
+    font-weight: 700;
+    margin-top: 30px;
+    width: 200px;
+}
+.nav-tabs .nav-link:hover {
+    border: none !important;
+}
+
+@media only screen and (max-width:600px){
+    .responsive_beh{
+        flex-direction: column !important;
+        width: 100%;
+    }
+
+    .home_navigation{
+        margin-top: 10px;
+
+    }
+    .sasds{
+        margin-left: 0px !important;
+    }
+
+
+
+    .navigation_card{
+        margin-top: 20px;
+        padding: 10px;
+    }
+
+    .sm_size{
+        width: 100%;
+    }
+}

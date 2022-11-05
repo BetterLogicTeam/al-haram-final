@@ -1,0 +1,36 @@
+.explore_main_ksg{
+    padding: 30px 0px;
+    background-color: 
+    rgba(2, 163, 193, 0.13);
+}
+
+.explore_card_heading{
+    text-transform: uppercase;
+    color: #454545;
+    font-size: 22px;
+}
+.Travel_main_heading{
+    color: #2d2d2d;
+    text-transform:uppercase;
+    font-weight: 600;
+}
+
+.Travel_sub_heading{
+    color: #777777;
+    font-weight: 400;
+    font-size: 24px;
+    text-transform:capitalize;
+    padding-bottom: 20px;
+}
+
+.explore_para{
+    color: #757575;
+    font-size:18px;
+}
+
+
+@media only screen and (max-width:600px){
+    .res_dir{
+        flex-direction: column !important;
+    }
+}

@@ -1,0 +1,26 @@
+.vise_form_main_bg{
+    padding: 50px 0px;
+}
+
+.vise_form_heading{
+    text-align: center;
+    font-weight: 700;
+    color: #4A4A4A;
+    line-height: 42px;
+
+}
+
+.vise_form_card{
+    padding: 20px 10px;
+    background-color: #C4E9F0;
+    box-shadow: 0px 4px 30px 4px rgba(0, 0, 0, 0.1);
+}
+
+.vise_form_sub_heading{
+    text-transform:capitalize;
+    font-family: 'Raleway';
+font-style: normal;
+font-weight: 500;
+
+color: #4A4A4A;
+}

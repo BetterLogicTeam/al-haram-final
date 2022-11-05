@@ -1,0 +1,45 @@
+.logo_main_header{
+    width: 50%;
+    text-align: left;
+
+}
+.logo_mar{
+    margin-left:-8% ;
+}
+
+.header_links{
+    color: #585858 !important;
+    line-height: 33px;
+    margin-right: 35px;
+    /* padding-left: 20px; */
+   
+}
+.drop_nav_links{
+    color: #585858;
+    text-decoration: none !important;
+}
+.drop_nav_links:hover{
+    color:#585858 ;
+}
+.header_travel_btn{
+    margin-left: 16% !important;
+}
+
+.header_drop{
+    color: #02A3C1 !important;
+}
+
+
+@media only screen and (max-width:600px){
+    .logo_main_header{
+        width: 60% !important;
+    }
+
+    .header_travel_btn{
+        margin-left: 0px !important;
+    }
+
+    .header_links{
+        margin-right: 0px !important;
+    }
+}
